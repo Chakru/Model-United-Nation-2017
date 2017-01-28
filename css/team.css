@@ -1,0 +1,164 @@
+p {
+    line-height: 160%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.1s ease-in;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #34495e;
+    transition: all 0.1s ease-in;
+}
+
+.transform{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari */
+    transform: rotate(270deg); /* Standard syntax */
+}
+
+
+h4,h3 {
+    color: #fff;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Separators */
+
+.separator {
+    margin: 0 auto;
+    ` background: rgba(0, 0, 0, 0.2);
+    width: 30px;
+    height: 5px;
+}
+
+
+/* 03. SPEAKERS SETTINGS ============================================ */
+
+#teams {
+    padding: 60px 0;
+    background: #34495e;
+    text-align: center;
+}
+
+#teams p {
+    padding: 20px 0 60px;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+#teams h3 {
+    padding: 0 0 15px;
+    font-family: 'norwester';
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#teams h4 {
+    margin-top: -20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#teams h4 span {
+    display: block;
+    position: relative;
+    left: -40px;
+    top: 10px;
+    font-size: 20px;
+    background: none;
+    padding: 0;
+}
+
+#teams img {
+    width: 100%;
+    max-width: 240px;
+    border-radius: 50%;
+    border: 15px solid transparent;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.18);
+    transition: all 0.1s ease-in;
+}
+
+#teams img:hover {
+    border: 15px solid #34495e;
+    position: relative;
+    z-index: 10;
+    transition: all 0.1s ease-in;
+}
+
+#teams span {
+    padding: 8px 20px;
+    position: relative;
+    top: -64px;
+    left: -42px;
+    display: inline-block;
+    background: #34495e;
+    border-radius: 0 16px 16px 0;
+    font-size: 16px;
+}
+
+#teams span:hover {
+    opacity: 0;
+}
+
+/* Member Image Hover Effect */
+
+.hover_img {
+    display: none
+}
+
+.member-profile:hover .unhover_img {
+    display: none;
+}
+
+.member-profile:hover .hover_img {
+    display: block;
+}
+
+
+/* Rows Optimization */
+
+.row2 {
+    display: none;
+}
+
+.row1 .col-md-3,
+.row2 .col-md-3 {
+    padding-bottom: 40px;
+}
+
+
+/* Mobile Devices Optimization */
+
+@media (min-width: 568px) and (max-width: 992px) {
+    .row1 .col-md-3,
+    .row2 .col-md-3 {
+        display: inline-block;
+        max-width: 50%;
+    }
+    #teams img {
+        max-width: 300px;
+        max-height: 240px;
+    }
+
+
+}
