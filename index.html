@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>CUFE MUN</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href='fonts/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/swipebox.css">
+<link href='http://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+	<script src="js/jquery.swipebox.min.js"></script>
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+
+
+
+<style type="text/css">
+	.conHead{
+    font-family: 'Slabo 27px', serif;
+	}
+</style>
+
+<style>
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+}
+</style>
+
+
+</head>
+<body>
+
+	<div id="home" class="header">
+		<div class="header-top">
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-right" id="navbar">
+					<div class="top-nav">
+
+						<a href="index-2.html" class="hover-effect scroll">
+								<span>
+									<span><b>HOME</b></span>
+									<span><b>HOME</b></span>
+									<span></span>
+								</span>
+							</a>
+
+						<a href="index-2.html#about" class="hover-effect scroll">
+								<span>
+									<span><b>ABOUT</b></span>
+									<span><b>ABOUT</b></span>
+									<span></span>
+								</span>
+							</a>
+
+							<!--<a href="#" class="hover-effect">
+								<span>
+									<span><b>PARTNERS</b></span>
+									<span><b>PARTNERS</b></span>
+									<span></span>
+								</span>
+							</a>-->
+						<a href="team.html" class="hover-effect">
+								<span>
+									<span><b>THE TEAM</b></span>
+									<span><b>THE TEAM</b></span>
+									<span></span>
+								</span>
+							</a>
+							<!--<a href="#" class="hover-effect">
+								<span>
+									<span><b>LEGACY</b></span>
+									<span><b>LEGACY</b></span>
+									<span></span>
+								</span>
+							</a>-->
+
+							<a href="#contactUs" class="hover-effect scroll">
+								<span>
+									<span><b>CONTACT</b></span>
+									<span><b>CONTACT</b></span>
+									<span></span>
+								</span>
+							</a>
+
+
+					</div>
+				</div>
+
+			</div>
+		</nav>
+		</div>
+
+
+
+		<div class="clearfix"></div>
+			<div class="banner-w3-info">
+			<!--	<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+							<center><img class="img-responsive" style="width:70% ;height:20%" src="images/SRMMUN-Logo.png" /> </center>
+					</div>
+
+				</div>
+			</div>-->
+					 <br>
+					 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					  <span class="more" style="background:transparent !important;">
+					    <a href="resources.html" class="hvr-shutter-in-vertical"><span class="glyphicon glyphicon-arrow-left" style="margin-right : 20px; margin-left: -20px;"></span> Delegate Resources</a>
+				    </span>
+
+				    <span class="more" style="background:transparent !important;">
+					    <a class="hvr-shutter-in-vertical" href="https://goo.gl/qPruuu" target="_blank">Register</a>
+				    </span>
+					<span class="more" style="background:transparent !important;">
+					    <a class="hvr-shutter-in-vertical" href="committees.html">View Committees<span class="glyphicon glyphicon-arrow-right"></span></a>
+				    </span>
+				     <!--<span class="more" style="float:right;background:transparent !important;">
+					    <a href="#" class="hvr-shutter-in-vertical" data-toggle="modal" data-target="#myModal">COMMITTEES<span class="glyphicon glyphicon-arrow-right"></span></a>
+				    </span> -->
+
+
+				</div>
+
+	    </div>
+
+<div class="banner-bottom">
+	<div class="container">
+	    <div class="inner-w3">
+
+		</div>
+		<div class="adt_grids">
+		<div class="row align">
+			<div class="col-md-7 col-xs-12 wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+				<h2 class="tittle">Message from the Secretariat</h2>
+										<p>It gives us immense Honor and pride to welcome you all to CUFEMUN 2017. We are living in a world inflicted in conflicts and this a cause of great concern for every citizen of the world. The UNs main motto is to restore peace and tranquility in the world and also making the world a better place to live in. Model UN is an effective way of changing the way we look at our world. CUFEMUN 2017 shares the same motto "To foster the future diplomats of the world today". We again extend our heartfelt thanks to you for choosing to be a part of the CUFEMUN family. You will surely not be disappointed. </p>
+										<p>With six eye-catching committees and a galactic International Press, CUFE MUN 2017 promises to be a historic event - with top level wrangle, high-quality reporting, and squeaky organisation.</p>
+										<p>The second edition of the conference is scheduled to be conducted from 24th - 26th February, 2017. Be there, to witness some of the most quick-witted, gifted young minds at work - avouching their opinions, and conatus for a better future.</p>
+										<br>
+										<center><p><b>COME LET'S MAKE HISTORY</b></p><p><b>TOGETHER</b></p></center>
+										<p>
+											Regards,<br>
+											Secretariat,<br>
+											CUFE MUN 2017
+										</p>
+
+
+
+
+			</div>
+			<!-- <div class="col-md-7 about_right wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s">
+				<div class="creative">
+
+				</div> -->
+
+			<div class="col-md-5 col-xs-12 about_right wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s">\
+					<img class="img-responsive" src="images/cufe.png">
+				<!-- <div class="creative">
+
+				</div> -->
+			</div>
+			</div>
+			</div>
+
+			<!-- row is getting ended here -->
+
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //banner-bottom -->
+ <!--/features-->
+		    <div class="features" id="feature">
+			  <div class="container" id="about">
+			     <div class="inner-w3 w3l">
+					<h3 class="title two"> ABOUT <span class="two"></span></h3>
+					</div>
+
+			   </div>
+			   <div class="row" style="margin-right:0px;">
+			   <div class="col-md-10 col-xs-11">
+			    <ul class="workout-exercises">
+					<li>
+						<h4>MUN</h4>
+						<div class="align tittle">
+							<p>
+								Faculty of Engineering, Christ University would like to extend its invitation towards you to be a part of the Faculty of Engineering, Christ University Model United Nations Conference 2017.Ever since its inception in 2009, Faculty of Engineering, Christ University has gone on to reach great heights. With 1500 students spread across 7 engineering disciplines and with excellent facilities, the Kengeri campus is a cornucopia of talent. The Faculty of Engineering MUN Society was formed in December 2015 and within a space of a year we have gone on to establish ourselves as a reputed delegation in the Bangalore circuit. The first chapter of the Christ University Faculty of Engineering Model United Nations will be held from 24th February to 26Th February 2017 at our very own Christ University, Kengeri Campus Bangalore, India.The objective of the Model United Nations is to seek, through discussion, negotiation and debate, solutions to the various problems of the world. In the process, the participating students learn to adopt views and attitudes other than their own and break away from narrow national self-interest and develop international cooperation. The research and preparation involved in the Model United Nations, the negotiations and debate, give the young people an insight into the world's problems and enable them to understand the causes of conflict between nations. The Model United Nations contributes in fulfilling the aims and goals set by the founders of the United Nations in the Preamble to the Charter of the United Nations -- namely to practice tolerance and live together in peace with one another as good neighbors. The Model United Nations also offers students an excellent opportunity to expand, develop and put into practice their lobbying and debate skills.
+							</p>
+						</div>
+						<p>
+							We thereby welcome you all to the CUFEMUN 2017 Family !
+						</p>
+
+
+				    </li>
+					 </ul>
+			   </div>
+			   </div>
+
+			    <div class="clearfix"></div>
+			</div>
+		</div>
+		<!--//features-->
+		<!--service-->
+
+    <script src="js/jquery.filterizr.js"></script>
+    <script src="js/controls.js"></script>
+
+
+<div id="contact" class="contact" style="background-color:white;color:black !important;padding-bottom:40px;">
+<br/><br/><br/>
+
+<center id="contactUs">	<h3 class="title two" style="background-color:white;color:black !important;margin-bottom:-5px;"> CONTACT US <span class="two"></span></h3> </center>
+<br><br>
+ <div class="map container-fluid">
+ 	<div class="row">
+		<!--<div class="col-md-8 col-xl-8">
+		</div>-->
+		<div class="col-xs-9">
+                        <!-- Google Map HTML Codes -->
+
+                        <!-- Google Map Javascript Codes -->
+                        <script src="http://maps.google.com/maps/api/js"></script>
+                        <script src="js/google-map-init.js"></script>
+                        <div class="align">
+                            <p>Faculty of Engineering Christ University</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.6933264970266!2d77.43574951426274!3d12.86307352073203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae47649ad2ec61%3A0x50103e0cf158813a!2sChrist+University+Faculty+of+Engineering!5e0!3m2!1sen!2sin!4v1480414508529" width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+		<div class="col-md-3 conHead">
+
+			<h2> <center>GENERAL INQUIRIES </center> </h2>
+ 			<center>cufemunsociety@gmail.com</center><br><br>
+ 			<h2><center>DELEGATE AFFAIRS </center> </h2>
+ 			<center>cufemunsociety@gmail.com</center><br><br>
+ 			<h2> <center>HOSPITALITY </center> </h2>
+     		<center>cufemunsociety@gmail.com</center>
+
+		</div>
+	</div>
+	</div>
+</div>
+
+
+
+
+<!--<nav id="footer" style=";background-color:#1b1b1c">-->
+<nav id="footer" style=";background-color:#000000">
+
+<div class="container">
+	<span style="float:left;">
+                    <a href="mailto:cufemunsociety@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x" style="margin-top: 10px;"></i></a>
+										&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/christmunsoc/" target="_blank"><i class="fa fa-facebook fa-2x" style="margin-top: 10px;"></i></a>
+										&nbsp;&nbsp;&nbsp;
+										<a href="https://www.instagram.com/christmunsoc/" target="_blank"><i class="fa fa-instagram fa-2x" style="margin-top:10px;"></i></a>
+    </span>
+    <span style="float:right">
+    	                    <p>Designed By: Abhishek Chakravarty</P>
+													    </span>
+</div>
+
+    </nav>
+
+						<script type="text/javascript">
+									$(document).ready(function() {
+
+										$().UItoTop({ easingType: 'easeOutQuart' });
+
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
