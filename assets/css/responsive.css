@@ -1,0 +1,51 @@
+/* #Tablet (Landscape)
+================================================== */
+
+@media only screen and (max-width: 1080px) {
+
+/* Disable CSS animations */
+.animated {
+    -webkit-animation-duration: 0;
+    animation-duration: 0;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+}
+
+/* Disable Parallax */
+.parallax-bg1, .parallax-bg2, .parallax-bg3 {
+    background-position: 50% 0 !important;
+}
+
+}
+
+/* #Tablet (Portrait)
+================================================== */
+    
+@media only screen and (max-width: 959px) {
+
+
+}
+
+/* #Mobile (Landscape)
+================================================== */
+
+@media only screen and (max-width: 767px) {
+
+.carousel-control.right span, .carousel-control.icon-next span {
+    right: 20%;
+}
+.carousel-control.left span, .carousel-control.icon-prev span {
+    left: 15%;
+}
+
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+@media only screen and (max-width: 440px) {
+
+	
+}
+
+

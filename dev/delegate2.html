@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+  
+<html>
+
+
+<!-- Mirrored from www.srmmun.in/dev/delegate2.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Dec 2016 11:41:38 GMT -->
+<head>
+    <title>Delegate Application</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+      <style>
+         body {
+            background-image: url("../images/form-bg.png");
+            background-color: #e2e2e2;
+         }
+         .bootstrap-iso .formden_header h2,
+         .bootstrap-iso .formden_header p,
+         .bootstrap-iso form {
+         font-family: Arial, Helvetica, sans-serif;
+         color: black
+         }
+         .bootstrap-iso form button,
+         .bootstrap-iso form button:hover {
+         color: white !important;
+         }
+         .bootstrap-iso .form-control:focus {
+         border-color: #66e975;
+         -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 233, 117, 0.6);
+         box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 233, 117, 0.6);
+         }
+         .asteriskField {
+         color: red;
+         }
+         .col-center {
+         float: none;
+         margin: 0 auto;
+         }
+
+         .form-box {
+            margin: 5px 10px 5px 0px;
+            padding: 10px 20px 20px 10px;
+            box-shadow: 0 0 10px 5px #888888;
+            background-color: #ffffff;
+         }
+         .noresize {
+             resize: vertical;
+         }
+      </style>
+</head>
+
+<body>
+    <div class="bootstrap-iso">
+        <div class="row">
+                <div class="col-md-12 col-center">
+                    <img class="img-responsive" style="width:110% ;height:20%" src="../images/form-banner.jpg" />
+                </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-center">
+                    <div class="form-box">
+                        <h1 style="text-align: center;">Delegate Applications - Round 2</h1>
+                        <form action="http://www.srmmun.in/dev/delegate2process.php" method="post" >
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="firstname">
+                                    First Name
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="firstname" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="lastname">
+                                    Last Name
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="lastname" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="gender">
+                                    Gender
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <div class="">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="male" checked/> Male
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="female" /> Female
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="other" /> Other
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="dob">
+                                    Date of Birth
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="date" name="dob" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="univ">
+                                    University/School
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="univ" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="yr">
+                                    Year/Grade
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="yr" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="cityCollege">
+                                    City (College)
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="cityCollege" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="city">
+                                    City / Area of Residence
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="city" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="mno">
+                                    Mobile Number
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="number" name="mno" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="email">
+                                    E-mail
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="noofmun">
+                                    How many MUN's done as Delegate
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="number" name="noofmun" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="nooffeb">
+                                    Number of MUN done as member of executive board
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="number" name="noofeb" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="munex">
+                                    MUN Experience
+                                    <br>
+                                    Please enter your MUN Experience in the following format : (Year - MUN - Council - Award, if any)
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <textarea class="form-control noresize" type="textarea" rows="10" cols="40"  name="munex" required></textarea>
+                            </div>
+
+                            <h3> Please Select the committee you would like to be part of in the order of your preference </h3>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="Preference1">
+                                    First Preference
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <select class="form-control" name="Preference1">
+                                    <option value="null">Select</option>
+                                    <option value="SC">Securiy Council</option>
+                                    <option value="UNGA-SOCHUM">UNGA-SOCHUM</option>
+                                    <option value="G7">G7</option>
+                                    <option value="JCC-ISI">JCC-ISI</option>
+                                    <option value="JCC-MOSSAD">JCC-MOSSAD</option>
+                                    <option value="JCC-RAW">JCC-R&AW</option>
+                                    <option value="UNSG-SMG">UNSG-SMG</option>
+                                    <option value="WIPO">WIPO</option>
+                                    <option value="UNODC">UNODC</option>
+                                    <option value="UNHCR">UNHCR</option>
+                                    <option value="UNGA-DISEC">UNGA-DISEC</option>
+                                    <option value="UNEP">UNEP</option>
+                                    <option value="AL">Arab League</option>
+                                    <option value="UNECOSOC">UNECOSOC</option>
+                                    <option value="CSW">CSW</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="country1">
+                                    Countries for Preference 1
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="country1" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="Preference2">
+                                    Second Preference
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <select class="form-control" name="Preference2">
+                                    <option value="null">Select</option>
+                                    <option value="SC">Securiy Council</option>
+                                    <option value="UNGA-SOCHUM">UNGA-SOCHUM</option>
+                                    <option value="G7">G7</option>
+                                    <option value="JCC-ISI">JCC-ISI</option>
+                                    <option value="JCC-MOSSAD">JCC-MOSSAD</option>
+                                    <option value="JCC-RAW">JCC-R&AW</option>
+                                    <option value="UNSG-SMG">UNSG-SMG</option>
+                                    <option value="WIPO">WIPO</option>
+                                    <option value="UNODC">UNODC</option>
+                                    <option value="UNHCR">UNHCR</option>
+                                    <option value="UNGA-DISEC">UNGA-DISEC</option>
+                                    <option value="UNEP">UNEP</option>
+                                    <option value="AL">Arab League</option>
+                                    <option value="UNECOSOC">UNECOSOC</option>
+                                    <option value="CSW">CSW</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="country2">
+                                    Countries for Preference 2
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="country2" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="Preference3">
+                                    Third Preference
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <select class="form-control" name="Preference3">
+                                    <option value="null">Select</option>
+                                    <option value="SC">Securiy Council</option>
+                                    <option value="UNGA-SOCHUM">UNGA-SOCHUM</option>
+                                    <option value="G7">G7</option>
+                                    <option value="JCC-ISI">JCC-ISI</option>
+                                    <option value="JCC-MOSSAD">JCC-MOSSAD</option>
+                                    <option value="JCC-RAW">JCC-R&AW</option>
+                                    <option value="UNSG-SMG">UNSG-SMG</option>
+                                    <option value="WIPO">WIPO</option>
+                                    <option value="UNODC">UNODC</option>
+                                    <option value="UNHCR">UNHCR</option>
+                                    <option value="UNGA-DISEC">UNGA-DISEC</option>
+                                    <option value="UNEP">UNEP</option>
+                                    <option value="AL">Arab League</option>
+                                    <option value="UNECOSOC">UNECOSOC</option>
+                                    <option value="CSW">CSW</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="country3">
+                                    Countries for Preference 3
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input class="form-control" type="text" name="country3" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="arab">
+                                    If you've selected Arab League as a preference, select one of the following
+                                </label>
+                                <br>
+                                <input type="radio" name="arab" value="yes"> Applying with a co delegate <br>
+                                <input type="radio" name="arab" value="no"> Applying alone (OC will find a co delegate for you)
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="codelegate">
+                                    If applying with a Co Delegate, Name of the Co Delegate (Ignore if not selected Arab League)
+                                </label>
+                                <input class="form-control" type="text" name="codelegate">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="Acc">
+                                    Accomodation
+                                    <span class="asteriskField">
+                                    *
+                                    </span>
+                                </label>
+                                <input type="radio" name="Acc" value="yes"> Yes
+                                <input type="radio" name="Acc" value="no" checked> No
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label requiredField" for="essay">
+                                    Those who have applied for SMG answer the following question : 
+                                    <br>
+                                     What do you understand from the agenda and how do you wish to use the knowledge gained in the council?
+                                </label>
+                                <textarea class="form-control noresize" rows="10" cols="40" name="essay"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <center><label class="checkbox-inline">
+                                    <input type="checkbox" name="policies" value="policy" required> Accept Conference Policies
+                                    <span class="asteriskField">
+                                        *
+                                    </span>
+                                </label></center>
+                            </div>
+
+                            <div class="form-group" style="text-align: center;">
+                                <button class="btn btn-primary" type="submit" name="submit">Submit</button> 
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Mirrored from www.srmmun.in/dev/delegate2.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Dec 2016 11:41:40 GMT -->
+</html>
