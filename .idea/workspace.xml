@@ -21,12 +21,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="149" column="51" lean-forward="false" selection-start-line="149" selection-start-column="51" selection-end-line="149" selection-end-column="51" />
+            <state relative-caret-position="274">
+              <caret line="333" column="11" lean-forward="false" selection-start-line="333" selection-start-column="11" selection-end-line="333" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#center#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -68,6 +69,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="890" column="14" lean-forward="true" selection-start-line="890" selection-start-column="1" selection-end-line="890" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="team.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/team.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,13 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Riddhima Jaitly</find>
-      <find>Za</find>
-      <find>GENERAL INQUIRIES</find>
-      <find>homw</find>
-      <find>home</find>
-      <find>Being one of the principal organs of CUFEMUN 2017, the International Press promises to provide you with journalism never experienced before.</find>
-      <find>index-2.html</find>
       <find>index-2</find>
       <find>intern</find>
       <find>open</find>
@@ -122,6 +126,13 @@
       <find>img srv</find>
       <find>.align</find>
       <find>About</find>
+      <find>he second edition of the conference is scheduled</find>
+      <find>Christ University Faculty of Engineering Model United Nations will be held from 24th February to 26Th February 2</find>
+      <find>cooperation. T</find>
+      <find>ul.workout-exercises li:before</find>
+      <find>contact us</find>
+      <find>h4</find>
+      <find>features-text</find>
     </findStrings>
     <replaceStrings>
       <replace>jpg</replace>
@@ -150,9 +161,9 @@
         <option value="$PROJECT_DIR$/committees.html" />
         <option value="$PROJECT_DIR$/disec.html" />
         <option value="$PROJECT_DIR$/assets/css/nexus.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -211,6 +222,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -629,7 +641,7 @@
       <workItem from="1485457770370" duration="11000" />
       <workItem from="1485620900109" duration="5636000" />
       <workItem from="1485886038543" duration="858000" />
-      <workItem from="1485938921526" duration="2884000" />
+      <workItem from="1485938921526" duration="8229000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1485451431448</created>
@@ -642,7 +654,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40811000" />
+    <option name="totallyTimeSpent" value="46156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -693,19 +705,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2193">
@@ -759,6 +758,7 @@
             <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -817,6 +817,7 @@
             <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -845,6 +846,7 @@
             <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -873,6 +875,7 @@
             <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1010,14 +1013,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Chakru.github.io/index.html" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/disec.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1963">
@@ -1092,14 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1719" column="5" lean-forward="false" selection-start-line="1719" selection-start-column="5" selection-end-line="1719" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/team.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1108,14 +1095,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="890" column="14" lean-forward="true" selection-start-line="890" selection-start-column="1" selection-end-line="890" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="149" column="51" lean-forward="false" selection-start-line="149" selection-start-column="51" selection-end-line="149" selection-end-column="51" />
+        <state relative-caret-position="274">
+          <caret line="333" column="11" lean-forward="false" selection-start-line="333" selection-start-column="11" selection-end-line="333" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#center#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
