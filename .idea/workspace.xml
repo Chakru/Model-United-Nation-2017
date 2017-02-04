@@ -44,23 +44,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="committees.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/committees.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="147" column="43" lean-forward="true" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#figure#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="330" column="40" lean-forward="false" selection-start-line="330" selection-start-column="40" selection-end-line="330" selection-end-column="40" />
+            <state relative-caret-position="132">
+              <caret line="297" column="41" lean-forward="true" selection-start-line="297" selection-start-column="41" selection-end-line="297" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="team.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/team.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+            <state relative-caret-position="372">
+              <caret line="102" column="48" lean-forward="false" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
               <folding>
-                <marker date="1486151407882" expanded="true" signature="1971:2016" ph="..." />
+                <marker date="1486193142105" expanded="true" signature="1971:2016" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,7 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insi</find>
       <find>cufe.pn</find>
       <find>member-profile</find>
       <find>register</find>
@@ -98,8 +109,9 @@
       <find>z-in</find>
       <find>#000000</find>
       <find>seper</find>
-      <find>Pay</find>
       <find>chakr</find>
+      <find>Pay</find>
+      <find>aman</find>
     </findStrings>
     <replaceStrings>
       <replace>jpg</replace>
@@ -132,10 +144,10 @@
         <option value="$PROJECT_DIR$/resources.html" />
         <option value="$PROJECT_DIR$/regPage.html" />
         <option value="$PROJECT_DIR$/committees.html" />
-        <option value="$PROJECT_DIR$/css/team.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/css/team.css" />
       </list>
     </option>
   </component>
@@ -614,7 +626,7 @@
       <workItem from="1485886038543" duration="858000" />
       <workItem from="1485938921526" duration="12271000" />
       <workItem from="1486011480053" duration="3287000" />
-      <workItem from="1486141565494" duration="14938000" />
+      <workItem from="1486141565494" duration="15777000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1485451431448</created>
@@ -627,7 +639,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68423000" />
+    <option name="totallyTimeSpent" value="69262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -682,7 +694,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2516">
           <caret line="148" column="41" lean-forward="false" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#figure#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,7 +735,7 @@
         <state relative-caret-position="2176">
           <caret line="128" column="23" lean-forward="false" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
           <folding>
-            <marker date="1486151407882" expanded="true" signature="1971:2016" ph="..." />
+            <marker date="1486193142105" expanded="true" signature="1971:2016" ph="..." />
           </folding>
         </state>
       </provider>
@@ -738,7 +752,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2516">
           <caret line="148" column="41" lean-forward="false" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#figure#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -760,7 +776,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2533">
           <caret line="149" column="36" lean-forward="false" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#figure#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +807,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2533">
           <caret line="149" column="36" lean-forward="false" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#figure#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,14 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/committees.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="157" column="142" lean-forward="false" selection-start-line="157" selection-start-column="142" selection-end-line="157" selection-end-column="142" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1052,26 +1064,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/team.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
-          <folding>
-            <marker date="1486151407882" expanded="true" signature="1971:2016" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team/Divyendu.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/committees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="147" column="43" lean-forward="true" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#figure#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="330" column="40" lean-forward="false" selection-start-line="330" selection-start-column="40" selection-end-line="330" selection-end-column="40" />
+        <state relative-caret-position="132">
+          <caret line="297" column="41" lean-forward="true" selection-start-line="297" selection-start-column="41" selection-end-line="297" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/team.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="102" column="48" lean-forward="false" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+          <folding>
+            <marker date="1486193142105" expanded="true" signature="1971:2016" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
