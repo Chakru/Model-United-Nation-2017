@@ -101,6 +101,7 @@ body {
     border-radius: 50%;
     border: 15px solid transparent;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.18);
+    filter: grayscale(100%);
     /*transition: all 0.1s ease-in;*/
 }
 
@@ -108,6 +109,7 @@ body {
     border: 15px solid #4593e3;
     position: relative;
     z-index: 10;
+    filter: grayscale(0%);
     /*transition: all 0.1s ease-in;*/
 }
 
@@ -116,7 +118,7 @@ body {
     padding: 8px 20px;
     position: relative;
     top: -64px;
-    left: -42px;
+    left: -40px;
     display: inline-block;
     background: #4593e3;
     border-radius: 0 16px 16px 0;
