@@ -1,17 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 p {
     line-height: 160%;
 }
 
 a {
     text-decoration: none;
-    color: #000000;
-    transition: all 0.1s ease-in;
+    color: #fff;
+   /* transition: all 0.1s ease-in;*/
 }
 
-a:hover {
+a:hover{
     text-decoration: none;
-    color: #34495e;
-    transition: all 0.1s ease-in;
+    /*color: #34495e;*/
+    color: #0000;
+    /*transition: all 0.1s ease-in;*/
 }
 
 .transform{
@@ -44,7 +50,7 @@ body {
 
 .separator {
     margin: 0 auto;
-    ` background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     width: 30px;
     height: 5px;
 }
@@ -54,7 +60,7 @@ body {
 
 #teams {
     padding: 60px 0;
-    background: #34495e;
+    background: #4593e3;
     text-align: center;
 }
 
@@ -95,15 +101,16 @@ body {
     border-radius: 50%;
     border: 15px solid transparent;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.18);
-    transition: all 0.1s ease-in;
+    /*transition: all 0.1s ease-in;*/
 }
 
 #teams img:hover {
-    border: 15px solid #34495e;
+    border: 15px solid #4593e3;
     position: relative;
     z-index: 10;
-    transition: all 0.1s ease-in;
+    /*transition: all 0.1s ease-in;*/
 }
+
 
 #teams span {
     padding: 8px 20px;
@@ -111,19 +118,19 @@ body {
     top: -64px;
     left: -42px;
     display: inline-block;
-    background: #34495e;
+    background: #4593e3;
     border-radius: 0 16px 16px 0;
     font-size: 16px;
 }
 
-#teams span:hover {
-    opacity: 0;
-}
+/*#teams span:hover {*/
+    /*opacity: 0;*/
+/*}*/
 
 /* Member Image Hover Effect */
 
 .hover_img {
-    display: none
+    display: none;
 }
 
 .member-profile:hover .unhover_img {
