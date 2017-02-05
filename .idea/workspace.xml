@@ -106,8 +106,8 @@
       <file leaf-file-name="regPage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/regPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
+            <state relative-caret-position="165">
+              <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -677,7 +677,7 @@
       <workItem from="1485938921526" duration="12271000" />
       <workItem from="1486011480053" duration="3287000" />
       <workItem from="1486141565494" duration="25442000" />
-      <workItem from="1486247065676" duration="2014000" />
+      <workItem from="1486247065676" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1485451431448</created>
@@ -690,7 +690,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80941000" />
+    <option name="totallyTimeSpent" value="81053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1139,8 +1139,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
           <folding />
         </state>
       </provider>
