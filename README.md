@@ -1,2 +1,3 @@
-# Chakru.github.io
+http://cufemun.in
+
 MUN 2017
