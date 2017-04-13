@@ -51,9 +51,10 @@ body a:hover{
 	display:block;
 }
 .banner-w3-info{
-margin:20em auto 0;
+	margin: 41em auto 0;
 	text-align: center;
 }
+
 .banner-w3-info p {
     font-size: 1.2em;
     margin:2em auto;
