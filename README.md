@@ -17,5 +17,5 @@ A simple website for the MUN 2017 organized by the `Faculty of Engineering Chris
 
 ### License
 
-This project is licensed under the `Faculty of Engineering Christ university` License.
+This project is licensed under the `Faculty of Engineering Christ University` License.
 
