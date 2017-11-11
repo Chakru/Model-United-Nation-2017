@@ -3,7 +3,7 @@ Live at [cufemun.in](cufemun.in)
 
 <b>Objective</b> : To seek, through discussion, negotiation and debate, solutions to the various problems of the world.
 
-![Demo gif](https://github.com/Chakru/Model-United-Nation-2017/blob/master/Readme.gif)
+![Demo gif](https://github.com/Chakru/Model-United-Nation-2017/blob/gh-pages/Readme.gif)
 
 ### Project Description:
 
